@@ -6,5 +6,9 @@ jobs:
     steps:
     - name: Print Something
       run: echo "Impresión 1"
+    steps:
+    - name: Print Something 2
       run: echo "Impresión 2"
+    steps:
+    - name: Print Something 3
       run: echo "Impresión 3"
