@@ -1,0 +1,10 @@
+name: Work 2 Renata
+on: [push]
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      name: Print Something
+      run: echo "Impresión 1"
+      run: echo "Impresión 2"
+      run: echo "Impresión 3"
